@@ -2,12 +2,12 @@
   "stats": {
     "suites": 4,
     "tests": 9,
-    "passes": 8,
+    "passes": 9,
     "pending": 0,
-    "failures": 1,
-    "start": "2024-11-27T09:19:19.138Z",
-    "end": "2024-11-27T09:19:19.771Z",
-    "duration": 633
+    "failures": 0,
+    "start": "2024-11-27T11:40:17.353Z",
+    "end": "2024-11-27T11:40:17.778Z",
+    "duration": 425
   },
   "tests": [
     {
@@ -20,15 +20,9 @@
     {
       "title": "charges 20 dollars for a distance between 400 and 2000 feet",
       "fullTitle": "index.js scuberGreetingForFeet() charges 20 dollars for a distance between 400 and 2000 feet",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "message": "expected 'Enjoy your ride!' to equal 'That will be twenty bucks.'",
-        "showDiff": true,
-        "actual": "Enjoy your ride!",
-        "expected": "That will be twenty bucks.",
-        "stack": "AssertionError: expected 'Enjoy your ride!' to equal 'That will be twenty bucks.'\n    at Context.<anonymous> (test/indexTest.js:10:46)\n    at process.processImmediate (node:internal/timers:476:21)"
-      }
+      "err": {}
     },
     {
       "title": "charges 30 dollars for a distance over 2000 feet",
@@ -47,7 +41,7 @@
     {
       "title": "returns \"Ok, sounds good.\" when the city is NYC",
       "fullTitle": "index.js ternaryCheckCity() returns \"Ok, sounds good.\" when the city is NYC",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -61,7 +55,7 @@
     {
       "title": "should return \"Thank you so much.\" if the tip is generous",
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you so much.\" if the tip is generous",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -81,25 +75,18 @@
     }
   ],
   "pending": [],
-  "failures": [
-    {
-      "title": "charges 20 dollars for a distance between 400 and 2000 feet",
-      "fullTitle": "index.js scuberGreetingForFeet() charges 20 dollars for a distance between 400 and 2000 feet",
-      "duration": 2,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected 'Enjoy your ride!' to equal 'That will be twenty bucks.'",
-        "showDiff": true,
-        "actual": "Enjoy your ride!",
-        "expected": "That will be twenty bucks.",
-        "stack": "AssertionError: expected 'Enjoy your ride!' to equal 'That will be twenty bucks.'\n    at Context.<anonymous> (test/indexTest.js:10:46)\n    at process.processImmediate (node:internal/timers:476:21)"
-      }
-    }
-  ],
+  "failures": [],
   "passes": [
     {
       "title": "gives customers a free sample if the ride is less than or equal to 400 feet",
       "fullTitle": "index.js scuberGreetingForFeet() gives customers a free sample if the ride is less than or equal to 400 feet",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "charges 20 dollars for a distance between 400 and 2000 feet",
+      "fullTitle": "index.js scuberGreetingForFeet() charges 20 dollars for a distance between 400 and 2000 feet",
       "duration": 1,
       "currentRetry": 0,
       "err": {}
@@ -121,7 +108,7 @@
     {
       "title": "returns \"Ok, sounds good.\" when the city is NYC",
       "fullTitle": "index.js ternaryCheckCity() returns \"Ok, sounds good.\" when the city is NYC",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -135,7 +122,7 @@
     {
       "title": "should return \"Thank you so much.\" if the tip is generous",
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you so much.\" if the tip is generous",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
